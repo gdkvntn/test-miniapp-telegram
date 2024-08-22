@@ -7,6 +7,12 @@ const bot = new Bot(token);
 
 console.log("bot starting");
 
+bot.command("start", (ctx) =>
+  ctx.reply(
+    "Welcome! To open the application write '/open_web_app' or go to the menu."
+  )
+);
+
 bot.api.setMyCommands([
   { command: "open_web_app", description: "Open the Web App" },
 ]);
