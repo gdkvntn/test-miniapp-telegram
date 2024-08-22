@@ -19,7 +19,7 @@ bot.command("open_web_app", (ctx) => {
           {
             text: "Open Web App",
             web_app: {
-              url: "https://54f3-109-236-81-169.ngrok-free.app/",
+              url: "https://test-miniapp-telegram.vercel.app/",
             },
           },
         ],
